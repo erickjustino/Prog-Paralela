@@ -1,0 +1,12 @@
+# 1. Ignorar TUDO por padrão
+*
+
+# 2. Não ignorar pastas (para o git poder entrar nelas)
+!*/
+
+# 3. Não ignorar arquivos .c (Liberar o código)
+!*.c
+
+# 4. (Opcional) Não ignorar o próprio gitignore e Readme
+!.gitignore
+!README.md
